@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include paystack_erpnext *.css
+recursive-include paystack_erpnext *.csv
+recursive-include paystack_erpnext *.html
+recursive-include paystack_erpnext *.ico
+recursive-include paystack_erpnext *.js
+recursive-include paystack_erpnext *.json
+recursive-include paystack_erpnext *.md
+recursive-include paystack_erpnext *.png
+recursive-include paystack_erpnext *.py
+recursive-include paystack_erpnext *.svg
+recursive-include paystack_erpnext *.txt
+recursive-exclude paystack_erpnext *.pyc
